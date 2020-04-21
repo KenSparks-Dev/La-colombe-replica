@@ -30,10 +30,14 @@ img{
   padding:6px 30px;
   font-size:.8em;
 }
-li{
+.top-nav li{
   text-transform: uppercase;
 }
 .header-hr{
   width:50px;
   background-color:rgb(164,42,41);
+}
+.footer{
+  background:rgb(171,63,65);
+  color:white;
 }
