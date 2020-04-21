@@ -1,0 +1,39 @@
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+img{
+  width:100%;
+}
+.header-1{
+  background:rgb(21,36,83);
+}
+.header-1 a{
+  color:white;
+  text-transform: capitalize;
+  font-size: .8em;
+}
+.level-one h1{
+  font-size:1.8em;
+  color:rgb(28,46,54);
+  font-weight: 700;
+
+}
+.level-one p{
+  color:rgb(28,46,54);
+  font-weight: 500;
+}
+.level-one button{
+  background:rgb(21,70,160);
+  font-weight: 600;
+  border-radius: 1px;
+  padding:6px 30px;
+  font-size:.8em;
+}
+li{
+  text-transform: uppercase;
+}
+.header-hr{
+  width:50px;
+  background-color:rgb(164,42,41);
+}
