@@ -2,6 +2,7 @@
 
 body{
 font-family: 'Montserrat', sans-serif;
+max-width: 100%;
 }
 img{
   width:100%;
@@ -34,11 +35,56 @@ img{
 .top-nav li{
   text-transform: uppercase;
 }
-.header-hr{
+.hr{
   width:50px;
   background-color:rgb(164,42,41);
+  height:5px
+
 }
-.footer{
+
+.card img{
+  
+  height: 250px;
+}
+.search-button{
+  background: rgb(20,70,160);
+  border-radius: 0px;
+  padding:5px 90px;
+  font-size:1.2em;
+  font-weight: 700;
+}
+.search img{
+  height:150px;
+}
+.search input[type=text]{
+  padding:5px 0px
+}
+.go{
+  background: rgb(20,70,160);
+  border-radius: 0px;
+}
+.site-footer{
   background:rgb(171,63,65);
   color:white;
+}
+.site-footer p{
+  font-weight: bold;
+  font-size:11px
+}
+.site-footer ul li{
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom:5px;
+  font-size:11px
+}
+.connect i{
+  font-size:1.5em;
+}
+input[type=email]{
+  margin-right:0;
+}
+input[type=submit]{
+  background:rgb(20,70,160);
+  margin-left:0;
+
 }
