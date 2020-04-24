@@ -91,3 +91,15 @@ input[type=submit]{
   margin-left:0;
 
 }
+.frankford-first-para{
+  font-size:1.2em
+}
+.frankford-second-para{
+  font-weight:100
+}
+
+.form input{
+  border-radius:0px;
+  
+
+}
