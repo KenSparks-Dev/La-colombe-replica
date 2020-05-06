@@ -1,5 +1,4 @@
 
-
 body{
 font-family: 'Montserrat', sans-serif;
 max-width: 100%;
@@ -34,6 +33,29 @@ img{
 }
 .top-nav li{
   text-transform: uppercase;
+
+}
+.main-img{
+  position:relative;
+  text-align:left;
+  color:white;
+}
+.main-img img{
+  height:700px;
+}
+.desktop-text{
+  position: absolute;
+  bottom:8px;
+  left:16px;
+  margin:0px 0px 140px 25px;
+}
+.desktop-text h1{
+  font-size:3em
+}
+.desktop-text hr{
+  width:50px;
+  background-color:rgb(164,42,41);
+  height:5px
 }
 .hr{
   width:50px;
@@ -54,7 +76,6 @@ img{
   font-weight: 700;
 }
 .search img{
-  height:150px;
 }
 .search input[type=text]{
   padding:5px 0px
