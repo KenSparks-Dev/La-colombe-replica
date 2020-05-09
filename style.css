@@ -119,17 +119,18 @@ img{
 }
 .desktop-text {
   position: absolute;
-  top:-80px;
+  top:-35px;
 	bottom: 50px;
-	left: 172px;
+	left: 192px;
   margin: 0px 0px 140px 25px;
   width:380px;
 }
 .desktop-text h1 {
-	font-size: 2.7em;
+	font-size: 2.6em;
 }
 .desktop-text p{
   width:200px;
+  font-size:.8em;
 }
 .desktop-text hr {
 	width: 50px;
@@ -142,19 +143,44 @@ img{
 	background-color: rgb(164, 42, 41);
 	height: 5px;
 }
+.non-carousel-best-sellers .card-size{
+  width:200px;
+}
+ .card .sellers-img{
+  height: 150px;
+  width:210px;
+}
+.card .shop-now-img  {
+	height: 290px;
+}
 
-.card img {
-	height: 250px;
+.card .search-img {
+  height: 300px;
+ 
+}
+.search-card{
+   border-radius:0;
+}
+.card-title{
+  color:rgb(20,70,159);
+  font-size:16px;
+}
+.maroon-para{
+  color:rgb(164, 42, 41);
+  font-weight:500;
+  font-size:11px;
+}
+.card-text-two{
+  font-size:13px;
 }
 .search-button {
 	background: rgb(20, 70, 160);
 	border-radius: 0px;
-	padding: 5px 90px;
-	font-size: 1.2em;
-	font-weight: 700;
+	padding: 8px 50px;
+	font-size: 1.0em;
+  font-weight: 700;
 }
-.search img {
-}
+
 .search input[type=text] {
 	padding: 5px 0px;
 }
@@ -355,5 +381,29 @@ input[type=submit] {
 	width: 50px;
 	background-color: rgb(164, 42, 41);
 	height: 5px;
+}
+.card .sellers-img{
+  height: 200px;
+  width:300px;
+}
+
+.card-title{
+  color:rgb(20,70,159);
+  font-size:18px;
+}
+.maroon-para{
+  color:rgb(164, 42, 41);
+  font-weight:500;
+  font-size:12px;
+}
+.card-text-two{
+  font-size:13px;
+}
+.search-button {
+	background: rgb(20, 70, 160);
+	border-radius: 0px;
+	padding: 5px 90px;
+	font-size: 1.2em;
+	font-weight: 700;
 }
 }
