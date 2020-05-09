@@ -112,24 +112,30 @@ img{
 .main-img {
 	position: relative;
 	text-align: left;
-	color: white;
+	color: rgb(28,47,54);
 }
 .main-img img {
-	height: 700px;
+	height: 500px;
 }
 .desktop-text {
-	position: absolute;
-	bottom: 8px;
-	left: 16px;
-	margin: 0px 0px 140px 25px;
+  position: absolute;
+  top:-80px;
+	bottom: 50px;
+	left: 172px;
+  margin: 0px 0px 140px 25px;
+  width:380px;
 }
 .desktop-text h1 {
-	font-size: 3em;
+	font-size: 2.7em;
+}
+.desktop-text p{
+  width:200px;
 }
 .desktop-text hr {
 	width: 50px;
 	background-color: rgb(164, 42, 41);
-	height: 5px;
+  height: 5px;
+  
 }
 .hr {
 	width: 50px;
@@ -320,5 +326,34 @@ input[type=submit] {
 		padding: 8px 15px;
 		font-weight: bold;
 		font-size: 1.2em;
-	}
+  }
+  .main-img img {
+	height: 900px;
+}
+  .desktop-text {
+	position: absolute;
+	bottom: 8px;
+	left: 286px;
+  margin: 0px 0px 140px 25px;
+  width:880px;
+
+}
+.desktop-text h1 {
+	font-size: 3.6em;
+}
+.desktop-text p{
+  width:600px;
+  font-size:1.4em;
+  font-weight: 400
+}
+.desktop-text hr {
+	width: 50px;
+	background-color: rgb(164, 42, 41);
+	height: 5px;
+}
+.hr {
+	width: 50px;
+	background-color: rgb(164, 42, 41);
+	height: 5px;
+}
 }
