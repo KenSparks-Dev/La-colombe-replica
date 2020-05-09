@@ -11,9 +11,65 @@ max-width: 100%;
   color:rgb(21,70,160);
   font-weight:700;
   font-size:10px;
+  margin-right:5px;
+
+
 }
 .navbar-img-desktop{
-  width:150px
+  width:150px;
+}
+.navbar-img-desktop img{
+  width:140px;
+  height:70px;
+  margin-left:100px;
+}
+.sign-in{
+  font-size:1.0em;
+  font-weight: 800;
+}
+.my-account{
+  width:300px;
+}
+.dropdown-menu button [type=submit]{
+  background:rgb(21,36,83);
+}
+
+.form .register{
+  font-size:.7em;
+}
+
+input[type=email]{
+  border:black solid 1px;
+  padding:8px;
+}
+input[type=password]{
+  border:black solid 1px;
+  padding:8px;
+}
+ .form-group .f-password{
+  font-size:10px;
+  font-weight:800;
+}
+
+.form .email{
+  font-weight:600;
+  font-size:11px;
+
+}
+.form .password{
+  font-weight:600;
+  font-size:11px;
+}
+.form .acct-button{
+  background:rgb(21,70,160);
+  border-radius: 0px;
+  padding:6px 10px;
+  font-weight:bold;
+  font-size:1.0em;
+}
+
+.dropdown-menu .dropdown-item {
+  font-weight: 100;
 }
 .nav-color{
   background:white;
@@ -198,4 +254,86 @@ input[type=submit]{
         -moz-transition: left 0.3s ease-in;
         transition: left 0.3s ease-in;
     }
+}
+
+@media (min-width: 1199px) {
+.navbar{
+  background: white;
+  padding:0px;
+}
+
+.navbar ul a {
+  color:rgb(21,70,160);
+  font-weight:700;
+  font-size:1.0em;
+  margin-right:30px;
+}
+.navbar ul li span{
+  font-size:30px;
+}
+.navbar-img-desktop{width:60px;
+}
+.navbar-img-desktop img{
+  width:180px;
+  height:85px;
+  margin-left:590px;
+}
+.nav-color{
+  background:white;
+}
+.navbar-toggler{
+  border:none;
+}
+.navbar span{
+  color:rgb(21,36,83);
+  
+}
+.navbar-img img{
+  width:30%;
+}
+.sign-in{
+  font-size:1.2em;
+  font-weight: 800;
+}
+.my-account{
+  width:350px;
+}
+.dropdown-menu button [type=submit]{
+  background:rgb(21,36,83);
+}
+
+.form .register{
+  font-size:.8em;
+}
+
+input[type=email]{
+  border:black solid 1px;
+  padding:12px;
+}
+input[type=password]{
+  border:black solid 1px;
+  padding:12px;
+}
+ .form-group .f-password{
+  font-size:14px;
+  font-weight:800;
+}
+
+.form .email{
+  font-weight:600;
+  font-size:14px;
+
+}
+.form .password{
+  font-weight:600;
+  font-size:14px;
+}
+.form .acct-button{
+  background:rgb(21,70,160);
+  border-radius: 0px;
+  padding:8px 15px;
+  font-weight:bold;
+  font-size:1.2em;
+}
+
 }
